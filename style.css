@@ -1,0 +1,96 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+/* Common Fonts */
+body {
+    font-family: 'Sigmar One', cursive;
+    background-color: rgb(49, 49, 49);
+}
+
+.menu {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+/* Top Section */
+
+.vip-btn {
+    color: rgb(80, 0, 133);
+    background-color: rgb(183, 0, 255);
+
+    font-size: 90px;
+}
+.vip-btn:hover {
+    color: rgb(183, 0, 255);
+    background-color: rgb(80, 0, 133);
+}
+
+.mod-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 190, 0);
+
+    font-size: 90px;
+}
+.mod-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 73, 0);
+}
+
+.ban-btn {
+    color: rgb(92, 0, 0);
+    background-color: rgb(179, 0, 0);
+
+    font-size: 90px;
+}
+.vip-btn, .mod-btn, .ban-btn, .whisper-btn, .follow-btn, .history-btn {
+    transition: color 0.15s, background-color 0.15s;
+}
+.ban-btn:hover {
+    color: rgb(179, 0, 0);
+    background-color: rgb(92, 0, 0);
+}
+
+/* Middle Section */
+.user {
+    position: relative;
+    left: 350px;
+    bottom: 200px;
+    color: white;
+}
+
+.follow-btn {
+    color: black;
+    background-color: lime;
+    position: relative;
+    left: 630px;
+    bottom: 370px;
+}
+.follow-btn:hover {
+    color: white;
+    background-color: rgb(0, 163, 0);
+}
+
+/* Bottom Section */
+.whisper-btn {
+    color: white;
+    background-color: rgb(85, 85, 85);
+
+    font-size: 80px;
+    font-weight: bold;
+}
+.whisper-btn:hover {
+    color: white;
+    background-color: rgb(61, 61, 61);
+}
+
+.history-btn {
+    color: white;
+    background-color: orangered;
+
+    font-size: 80px;
+    font-weight: bold;
+}
+.history-btn:hover {
+    color: white;
+    background-color: rgb(194, 52, 0);
+}
